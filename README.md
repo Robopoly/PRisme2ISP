@@ -5,7 +5,7 @@ This sketch is an adaptation of the ArduinoISP by Randall Bohn that makes an ISP
 ## Connection
 To load the bootloader on another board or to program another board without a bootloader, such as another PRisme2, you need to connect 4 pins and the power supply.
 
-![Alt text](prisme2isp.png)
+![Alt text](http://i.imgur.com/Naru5.png)
 
 The left board (master) loads the program on the right one (slave) via emulated SPI protocol. The reset pin has to be triggered by some port than the master's reset pin for obvious reasons.
 
